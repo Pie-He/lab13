@@ -48,6 +48,7 @@ public class Main extends Application {
                 map.add(mapTiles[r][c], c + 1, r + 1);
             }
         }
+        System.out.println("hello");
     }
 
     private ImageView newImageView(Icon icon) {
